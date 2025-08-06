@@ -1,0 +1,220 @@
+Title:- HR Analytics Dashboard (Excel / Power BI / Tableau / MySQL)
+
+EXCEL
+Description:- 
+
+The dashboard summarizes data on (KPI) :- total employees 1,470, highlighting that 237 employees have left, resulting in an attrition rate of 16%, while 1,233 employees remain active. The average age of employees is 37 years.
+
+Interactive (Filters) at the top of the dashboard :- allow users to analyze data based on education level (Associate's, Bachelor's, Master's, etc.) and gender (Male/Female), making the dashboard highly customizable for focused decision-making.
+
+The (Pie) chart on the left displays the attrition count by department :- where the R&D department shows the highest attrition (133 employees), followed by Sales (92), and HR (12). 
+
+In the center, a (Bar chart) illustrates the number of employees by age group and gender.:- The largest group of female employees is in the 25-34 age range (217), This suggests that the mid-career age group forms the bulk of the workforce Female (35–44 years: 196 employees 45–54 years: 113 employees Under 25 years: 37 The Lowest group of female employees Over 55 years: 25 employees).  
+
+while the largest group of male employees is also in the same age range but higher in count (337), This suggests that the mid-career age group forms the bulk of the workforce male (35–44 years: 309 employees 45–54 years: 132 employees Under 25 years: 60 The Lowest group of male employees Over 55 years: 44 employees).
+
+The 25–34 age group has the highest number of employees for both genders, Male employees significantly outnumber female employees in every age group, The youngest (under 25) and oldest (over 55) age brackets have the lowest representation, The data suggests a mid-career heavy workforce, especially in the 25–44 range.
+
+The job satisfaction rating table on the right categorizes employees:- This table presents the distribution of employee job satisfaction ratings (from 1 = lowest to 4 = highest) across various job roles, along with total employee counts for each role. The overall employee count is 1,470.
+
+Total Ratings Breakdown:- Rating 1 (Low): 289 employees, Rating 2: 280 employees, Rating 3: 442 employees, Rating 4 (High): 459 employees.
+
+Job Roles with Employee Counts and Satisfaction:- Sales Executive: 326 employees – Highest count overall, with many rating 4 (112), Research Scientist: 292 employees – Strong satisfaction Many at rating 3 and 4 , Laboratory Technician: 259 employees – Many at rating 3 and 4,Manager: 102 employees – Mixed satisfaction, higher towards rating 3 and 4, Sales Representative: 83 employees – More evenly distributed satisfaction, Healthcare Representative: 131 employees – Majority rated 3 or 4, Manufacturing Director: 145 employees  higher towards rating 3,
+Research Director: 80 employees  higher towards rating 3 and 4, Human Resources: 52 employees – Small group with majority in rating 3 and 4.
+
+Most employees fall into moderate to high satisfaction levels (ratings 3 and 4),The Sales Executive role has the highest number of satisfied employees (112 at rating 4),Roles such as Research Scientist and Laboratory Technician also show strong satisfaction patterns, The lowest ratings (1) are most common among Laboratory Technicians and Research Scientists, possibly pointing to role-specific challenges.
+
+On the bottom left, another bar chart visualizes education field-wise attrition :- Employees from Life Sciences (89), Medical (63), and Marketing (35) have the highest attrition numbers. Technical degree holders (32) and employees from Human Resources (7) show lower attrition.
+
+At the bottom center, a (Bar graph) outlines the attrition rate by gender and age group:- The most affected group is males aged 25-34 with 69 cases of attrition (highest overall), This suggests that the mid-career age group forms the bulk of the workforce 35–44 years: 37 , 45–54 years: 16 , Over 55 years: 8 , Under 25 years: 20.
+followed by females aged 25-34 with 43 cases (highest among overall), This suggests that the mid-career age group forms the bulk of the workforce 35–44 years: 14 , 45–54 years: 9 , 
+Over 55 years: 3 , Under 25 years: 18.
+
+The highest attrition is among males aged 25–34 (69), followed by females aged 25–34 (43), Both genders show the lowest attrition in the over 55 age group, Young employees (under 25) also have noticeable attrition, especially among males (20),The 25–34 age range is the most volatile for attrition, indicating potential issues with engagement or satisfaction in early to mid-career stages.
+
+Power BI
+Description:-
+
+The dashboard summarizes data on (KPI) :- total employees 1,470, highlighting that 237 employees have left, resulting in an attrition rate of 16%, while 1,233 employees remain active. The average age of employees is 37 years.
+
+Interactive (Filters) at the top of the dashboard :- allow users to analyze data based on education level (Associate's, Bachelor's, Master's, etc.) and gender (Male/Female), making the dashboard highly customizable for focused decision-making.
+
+Department-wise Attrition: A pie chart shows the breakdown of attrition by education field. Life Sciences: 133 employees (56.12%). Medical: 92 employees (38.82%). Other: 12 employees (5.06%).
+
+Number of Employees by Age Group: A bar chart displays the distribution of employees by gender and age group. The largest group is males aged 25-34, followed by females in the same age band.
+while the largest group of male employees is also in the same age range but higher in count (337), This suggests that the mid-career age group forms the bulk of the workforce male (35–44 years: 309 employees 45–54 years: 132 employees Under 25 years: 60 The Lowest group of male employees Over 55 years: 44 employees).
+
+while the largest group of female employees is also in the same age range but higher in count (217), This suggests that the mid-career age group forms the bulk of the workforce female (35–44 years: 196 employees 45–54 years: 113 employees Under 25 years: 37 The Lowest group of female employees Over 55 years: 25 employees).
+
+The 25–34 age group has the highest number of employees for both genders, Male employees significantly outnumber female employees in every age group, The youngest (under 25) and oldest (over 55) age brackets have the lowest representation, The data suggests a mid-career heavy workforce, especially in the 25–44 range.
+
+The job satisfaction rating table on the right categorizes employees:- This table presents the distribution of employee job satisfaction ratings (from 1 = lowest to 4 = highest) across various job roles, along with total employee counts for each role. The overall employee count is 1,470.
+
+Total Ratings Breakdown:- Rating 1 (Low): 289 employees, Rating 2: 280 employees, Rating 3: 442 employees, Rating 4 (High): 459 employees.
+
+Job Roles with Employee Counts and Satisfaction:- Sales Executive: 326 employees – Highest count overall, with many rating 4 (112), Research Scientist: 292 employees – Strong satisfaction Many at rating 3 and 4 , Laboratory Technician: 259 employees – Many at rating 3 and 4,Manager: 102 employees – Mixed satisfaction, higher towards rating 3 and 4, Sales Representative: 83 employees – More evenly distributed satisfaction, Healthcare Representative: 131 employees – Majority rated 3 or 4, Manufacturing Director: 145 employees  higher towards rating 3,
+Research Director: 80 employees  higher towards rating 3 and 4, Human Resources: 52 employees – Small group with majority in rating 3 and 4.
+
+Most employees fall into moderate to high satisfaction levels (ratings 3 and 4),The Sales Executive role has the highest number of satisfied employees (112 at rating 4),Roles such as Research Scientist and Laboratory Technician also show strong satisfaction patterns, The lowest ratings (1) are most common among Laboratory Technicians and Research Scientists, possibly pointing to role-specific challenges.
+
+Education Field-wise Attrition (Bar Chart): A horizontal bar chart provides another view of attrition by education field. The top fields for attrition are: Life Sciences (89 employees). Medical (63 employees). Marketing (35 employees). Technical Degree (32 employees). Other (11 employees).
+
+Attrition Rate by Gender for Different Age Groups: A bar chart illustrates the attrition rate, broken down by gender and age group. For example, the attrition rate is shown for males and females in age bands like "Under 25," "25-34," "35-44," "45-54," and "Over 55".
+The most affected group is males aged 25-34 with 69 cases of attrition (highest overall), This suggests that the mid-career age group forms the bulk of the workforce 35–44 years: 37 , 45–54 years: 16 , Over 55 years: 8 , Under 25 years: 20.
+followed by females aged 25-34 with 43 cases (highest among overall), This suggests that the mid-career age group forms the bulk of the workforce 35–44 years: 14 , 45–54 years: 9 ,
+Over 55 years: 3 , Under 25 years: 18.
+
+Tableau 
+Description:-
+
+The dashboard summarizes data on (KPI) :- total employees 1,470, highlighting that 237 employees have left, resulting in an attrition rate of 16%, while 1,233 employees remain active. The average age of employees is 37 years.
+
+Interactive (Filters) at the top of the dashboard :- allow users to analyze data based on education level (Associate's, Bachelor's, Master's, etc.) and gender (Male/Female), making the dashboard highly customizable for focused decision-making.
+
+Department-wise Attrition (Pie Chart): This chart breaks down attrition by department. It shows that 133 employees (56.12%) from Sales, 92 employees (38.82%) from R&D, and 12 employees (5.06%) from HR have left the company.
+
+Number of Employees by Age Group: A bar chart displays the distribution of employees by gender and age group. The largest group is males aged 25-34, followed by females in the same age band.
+while the largest group of male employees is also in the same age range but higher in count (337), This suggests that the mid-career age group forms the bulk of the workforce male (35–44 years: 309 employees 45–54 years: 132 employees Under 25 years: 60 The Lowest group of male employees Over 55 years: 44 employees).
+
+while the largest group of female employees is also in the same age range but higher in count (217), This suggests that the mid-career age group forms the bulk of the workforce female (35–44 years: 196 employees 45–54 years: 113 employees Under 25 years: 37 The Lowest group of female employees Over 55 years: 25 employees).
+
+The 25–34 age group has the highest number of employees for both genders, Male employees significantly outnumber female employees in every age group, The youngest (under 25) and oldest (over 55) age brackets have the lowest representation, The data suggests a mid-career heavy workforce, especially in the 25–44 range.
+
+The job satisfaction rating table on the right categorizes employees:- This table presents the distribution of employee job satisfaction ratings (from 1 = lowest to 4 = highest) across various job roles, along with total employee counts for each role. The overall employee count is 1,470.
+
+Total Ratings Breakdown:- Rating 1 (Low): 289 employees, Rating 2: 280 employees, Rating 3: 442 employees, Rating 4 (High): 459 employees.
+
+Job Roles with Employee Counts and Satisfaction:- Sales Executive: 326 employees – Highest count overall, with many rating 4 (112), Research Scientist: 292 employees – Strong satisfaction Many at rating 3 and 4 , Laboratory Technician: 259 employees – Many at rating 3 and 4,Manager: 102 employees – Mixed satisfaction, higher towards rating 3 and 4, Sales Representative: 83 employees – More evenly distributed satisfaction, Healthcare Representative: 131 employees – Majority rated 3 or 4, Manufacturing Director: 145 employees  higher towards rating 3,
+Research Director: 80 employees  higher towards rating 3 and 4, Human Resources: 52 employees – Small group with majority in rating 3 and 4.
+
+Most employees fall into moderate to high satisfaction levels (ratings 3 and 4),The Sales Executive role has the highest number of satisfied employees (112 at rating 4),Roles such as Research Scientist and Laboratory Technician also show strong satisfaction patterns, The lowest ratings (1) are most common among Laboratory Technicians and Research Scientists, possibly pointing to role-specific challenges.
+
+Education Field-wise Attrition (Bar Chart): This horizontal bar chart shows the number of attritions for specific education fields. The highest attrition is in Life Sciences (89), followed by Medical (63), Marketing (35), and Technical Degree (32).
+
+Attrition Rate by Gender for Different Age Groups (Donut Charts): A series of donut charts visually represents the attrition rate by gender for various age bands, broken down by gender and age group. For example, the attrition rate is shown for males and females in age bands like "Under 25," "25-34," "35-44," "45-54," and "Over 55".
+The most affected group is males aged 25-34 with 69 cases of attrition (highest overall), This suggests that the mid-career age group forms the bulk of the workforce 35–44 years: 37 , 45–54 years: 16 , Over 55 years: 8 , Under 25 years: 20.
+followed by females aged 25-34 with 43 cases (highest among overall), This suggests that the mid-career age group forms the bulk of the workforce 35–44 years: 14 , 45–54 years: 9 ,
+Over 55 years: 3 , Under 25 years: 18.
+
+MySQL 
+Description:
+
+Query 1.Create Database
+Code :-
+	CREATE database HR ;
+	use HR ;
+	select * from `HR dataset`;
+Note :-
+	Creates a database named HR.
+	Selects it for use.
+	Displays all records from the HR dataset table to verify the data.
+
+Query 2. Overall Employee Count:
+Code :-
+	SELECT COUNT("Employee Count") AS "Overall Employee" FROM `HR dataset`;
+Note :-
+	Counts the total number of employees in the dataset.
+	COUNT("Employee Count") is incorrect because "Employee Count" is a string.
+	
+Query 3. Attrition Count:
+Code :-
+	select count(attrition) from `HR dataset`
+	where attrition='Yes';
+Note :-
+	Counts the number of employees who have left (Attrition = Yes).
+
+Query 4. Attrition Rate:
+Code :-
+	SELECT round(sum(CASE WHEN Attrition = 'Yes' THEN 1 ELSE 0 END) * 100 / COUNT(*),2) AS "Attrition Rate %"
+	FROM `HR dataset`;
+Note :-
+	Calculates attrition rate as a percentage.
+	By using Formula.
+
+Query 5. Active Employee:
+Code :-
+	SELECT COUNT(*) AS "Active Employee Count"
+	FROM `HR dataset`
+	WHERE Attrition = 'No';
+Note :-
+	Counts the number of employees who are still active in the company.
+
+Query 6. Average Age:
+Code :-
+	SELECT round(AVG(Age)) AS "Average Age"
+	FROM `HR dataset`;
+Note :-
+	Calculates the average age of employees, rounded to the nearest whole number.
+
+Query 7. Department wise Attrition:
+Code :-
+	SELECT Department, Attrition, COUNT(*) AS "Employee Count"
+	FROM `HR dataset`
+	WHERE Attrition = 'Yes'
+	GROUP BY Department, Attrition													
+	ORDER BY Department, Attrition;
+Note :-
+	Groups attrition counts by department.
+	Helps identify which department has the highest employee turnover
+
+Query 8.Education Field wise Attrition:
+Code :-
+	SELECT `Education Field`, COUNT(*) AS "Employee Count"
+	FROM `HR dataset`
+	WHERE Attrition = 'Yes'
+	GROUP BY `Education Field`
+	ORDER BY `Education Field`;
+Note :-
+	Shows attrition count for each education field.
+	Useful to analyze if education background affects attrition
+
+Query 9. No of Employee by Age Group :
+Code :-
+	SELECT
+	  `CF_age band`,
+ 	 Gender,
+ 	 COUNT(*) AS "Employee Count"
+	FROM `HR dataset`
+	GROUP BY `CF_age band`, Gender
+	ORDER BY `CF_age band`, Gender;
+Note :-
+	Groups employees by age band and gender.
+	Shows how many employees fall into each age group.
+
+Query 10. Attrition Rate by Gender for different Age Group:
+Code :-
+	SELECT
+ 	 `CF_age band`,
+ 	 Gender,
+ 	 COUNT(CASE WHEN Attrition = 'Yes' THEN 1 ELSE NULL END) AS "Attrition Count"
+	FROM `HR dataset`
+	GROUP BY `CF_age band`, Gender
+	ORDER BY `CF_age band`, Gender;
+Note :-
+	Counts attrition for each age group and gender combination.
+	Useful to understand if age and gender influence attrition.
+
+Query 11.Job Satisfaction Rating:
+Code :-
+	SELECT
+ 	 `Job Role`,
+ 	 `Job Satisfaction`,
+  	COUNT(*) AS "Employee Count"
+	FROM `HR dataset`
+	GROUP BY `Job Role`, `Job Satisfaction`
+	ORDER BY `Job Role`, `Job Satisfaction`;
+Note :-
+	Groups employees by job role and job satisfaction rating.
+	Identifies satisfaction levels for each role
+
+Query 12.Column Rename :
+Code :-
+	alter table `HR dataset`
+	rename column ï»¿Attrition to Attrition;
+Note :-
+	Fixes a column name that contained unwanted characters.
+	Renames it properly to Attrition.
+
+
+
+
